@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="5dp"
+    android:weightSum="6"
+    android:orientation="horizontal"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:src="@drawable/ic_baseline_emoji_emotions_25" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        tools:text="Username" />
+
+    <ImageButton
+        android:id="@+id/deleteFriendButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>

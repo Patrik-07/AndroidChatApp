@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="12"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="@string/new_friends"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="7"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/usernameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:hint="@string/usernameSample"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            android:inputType="textPersonName"
+            android:maxLength="12"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sign"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/userIDText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:hint="@string/userIDSample"
+            android:inputType="number"
+            android:maxLength="4"
+            tools:ignore="NestedWeights" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:text="@string/backButton"
+            android:textSize="12sp"
+            android:backgroundTint="@android:color/holo_red_light"/>
+
+        <Button
+            android:id="@+id/friendRequestButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:text="@string/friendRequest"
+            android:textSize="11sp"
+            tools:ignore="NestedWeights" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/requestPendingText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:text="@string/pendingRequests"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904370814389",
+    "project_id": "chatapp-d5984",
+    "storage_bucket": "chatapp-d5984.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904370814389:android:65227a4b7e66ef151eadfc",
+        "android_client_info": {
+          "package_name": "patrik.santa.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904370814389-3as2jdtrrd3m01fh4bfue5ktji7pfqqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdy-ita9T_3Ye6HCnJ7mDluvMJ185fwK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904370814389-3as2jdtrrd3m01fh4bfue5ktji7pfqqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

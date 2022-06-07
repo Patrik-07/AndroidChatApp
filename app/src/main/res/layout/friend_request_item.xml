@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="10dp"
+    android:weightSum="6"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:src="@drawable/ic_baseline_emoji_emotions_25" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:textSize="25sp"
+        android:gravity="center_vertical"
+        tools:text="Username" />
+
+    <ImageButton
+        android:id="@+id/acceptButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_check_24"
+        android:backgroundTint="@android:color/holo_green_dark"/>
+
+    <ImageButton
+        android:id="@+id/denyButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_close_24"
+        android:backgroundTint="@android:color/holo_red_light"/>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+
+    <!-- Common -->
+    <string name="title">Welcome</string>
+    <string name="usernamePlaceholder">Username</string>
+    <string name="passwordPlaceholder">Password</string>
+    <string name="registerButton">Register</string>
+
+    <!-- Login -->
+    <string name="loginButton">Login</string>
+
+    <!-- Register -->
+    <string name="registerSubTitle">Please enter your personal info.</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="passwordAgainPlaceholder">Password again</string>
+    <string name="emailPlaceholder">Email</string>
+
+    <!-- Navigation -->
+    <string name="chatLabel">Chat</string>
+    <string name="friendsLabel">Friends</string>
+    <string name="searchUser">Search for users...</string>
+    <string name="noFriends">Life is meaningless without friends.</string>
+    <string name="noChats">Start chatting with some friends!</string>
+    <string name="new_friends">Get some new friends!</string>
+    <string name="usernameSample">Username</string>
+    <string name="userIDSample">1234</string>
+    <string name="friendRequest">Send friend request</string>
+    <string name="pendingRequests">Pending requests.</string>
+    <string name="backButton">Back</string>
+    <string name="sign">#</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
